@@ -6,7 +6,7 @@ include(cmake/get_cpm.cmake)
 CPMAddPackage(
   NAME RAPIDYAML
   GITHUB_REPOSITORY biojppm/rapidyaml
-  GIT_TAG v0.12.1
+  GIT_TAG origin/master
   OPTIONS "RYML_WITH_TAB_TOKENS ON" "RYML_INSTALL OFF"
 )
 
